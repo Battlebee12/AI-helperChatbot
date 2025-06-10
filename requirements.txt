@@ -1,0 +1,5 @@
+openai
+faiss-cpu
+scikit-learn
+numpy
+python-dotenv
