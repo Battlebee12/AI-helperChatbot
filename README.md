@@ -1,4 +1,4 @@
-# 🤖 HelpBot AI
+#  HelpBot AI
 
 An AI-powered assistant that answers user questions based on help center documentation — built as a technical interview prototype.
 
@@ -10,33 +10,37 @@ HelpBot delivers fast, relevant answers by searching through help articles and u
 
 ---
 
-## 🧠 What It Does
+##  What It Does
 
-- 🔍 **Understands user questions** using OpenAI embeddings  
-- 📚 **Searches help documents** for the most relevant matches  
-- 🧾 **Summarizes the best answer** using GPT (optional layer)  
-- 🖥️ **Simple CLI or UI interface** for testing and demonstration  
+-  **Understands user questions** using OpenAI embeddings  
+-  **Searches help documents** for the most relevant matches  
+-  **Summarizes the best answer** using GPT (optional layer)  
+-  **Simple CLI or UI interface** for testing and demonstration  
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 helpbot/
-├── data/
-│ └── help_articles.json # Sample help docs
-├── embeddings/
-│ └── index.faiss # Saved vector index (optional)
-├── src/
-│ ├── main.py # CLI / entrypoint
-│ ├── embedder.py # Embedding + retrieval logic
-│ ├── summarizer.py # GPT-based answer generator
-│ └── utils.py # Utility functions (load data, etc.)
-├── .env # API key
-├── requirements.txt
-└── README.md
+├── data/                         # Sample or scraped help articles
+│   └── help_articles.json
+│
+├── embeddings/                  # (Optional) Saved vector index
+│   └── index.faiss
+│
+├── src/                         # All core logic lives here
+│   ├── main.py                  # CLI or app entry point
+│   ├── embedder.py              # Embedding + retrieval functions
+│   ├── summarizer.py            # GPT-based summarizer
+│   └── utils.py                 # Data loading, formatting, etc.
+│
+├── .env                         # API keys and environment variables
+├── requirements.txt             # Python dependencies
+└── README.md                    # You're looking at it
 
 
-## ⚙️ Installation & Setup
+
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -70,36 +74,10 @@ OPENAI_API_KEY=your-api-key-here
 python src/main.py
 ```
 
-💬 Example Questions You Can Ask
-"How do I reset my password?"
 
-"Where can I view my past orders?"
 
-"How do I update my email address?"
 
-"What’s the cancellation policy?"
 
-🛠️ Tech Stack
-🧠 OpenAI Embeddings + GPT (openai)
-
-🔍 FAISS (optional) for vector search
-
-📚 Python 3, NumPy, Scikit-learn
-
-🖼️ Streamlit (optional UI layer)
-
-🔐 .env config for key management
-
-📌 Future Enhancements
-Role-based or user-context filtering
-
-Live web deployment with Streamlit or Flask
-
-Real-time feedback (like 👍 / 👎 answers)
-
-API wrapper to connect to live help center data
-
-✍️ Author
 Built by Sarab as part of a technical prototype project.
 
-🚀 Smarter help, faster answers.
+
