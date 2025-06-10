@@ -21,22 +21,7 @@ HelpBot delivers fast, relevant answers by searching through help articles and u
 
 ##  Project Structure
 
-helpbot/
-├── data/                         # Sample or scraped help articles
-│   └── help_articles.json
-│
-├── embeddings/                  # (Optional) Saved vector index
-│   └── index.faiss
-│
-├── src/                         # All core logic lives here
-│   ├── main.py                  # CLI or app entry point
-│   ├── embedder.py              # Embedding + retrieval functions
-│   ├── summarizer.py            # GPT-based summarizer
-│   └── utils.py                 # Data loading, formatting, etc.
-│
-├── .env                         # API keys and environment variables
-├── requirements.txt             # Python dependencies
-└── README.md                    # You're looking at it
+<pre> helpbot/ ├── data/ # Sample or scraped help articles │ └── help_articles.json │ ├── embeddings/ # (Optional) Saved vector index │ └── index.faiss │ ├── src/ # All core logic lives here │ ├── main.py # CLI or app entry point │ ├── embedder.py # Embedding + retrieval functions │ ├── summarizer.py # GPT-based summarizer │ └── utils.py # Data loading, formatting, etc. │ ├── .env # API keys and environment variables ├── requirements.txt # Python dependencies └── README.md # You're looking at it </pre>
 
 
 
