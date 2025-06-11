@@ -1,0 +1,79 @@
+
+
+[
+  {
+    "title": "Resetting Your Password",
+    "tags": ["account", "password", "login"],
+    "content": "To reset your password, go to the login screen and click 'Forgot Password'. Follow the instructions sent to your email."
+  },
+  {
+    "title": "Changing Your Email Address",
+    "tags": ["account", "email", "settings"],
+    "content": "To update your email, navigate to Account Settings > Profile and enter your new email address."
+  },
+  {
+    "title": "Inviting Team Members",
+    "tags": ["team", "collaboration", "invite"],
+    "content": "Admins can invite teammates by going to the Team tab and clicking 'Invite New Member'. Enter their email and assign a role."
+  },
+  {
+    "title": "Viewing Past Orders",
+    "tags": ["orders", "history", "account"],
+    "content": "Go to the Orders section under your dashboard to see a full history of your past orders."
+  },
+  {
+    "title": "Cancelling an Order",
+    "tags": ["orders", "cancel"],
+    "content": "Orders can be canceled within 30 minutes of placement from the Orders page by clicking 'Cancel'."
+  },
+  {
+    "title": "Accepted Payment Methods",
+    "tags": ["billing", "payment"],
+    "content": "We accept Visa, Mastercard, AMEX, and ACH transfers. You can update your payment method in Billing Settings."
+  },
+  {
+    "title": "Adding a Billing Address",
+    "tags": ["billing", "address"],
+    "content": "To add or change your billing address, go to Billing Settings and click 'Edit Address'."
+  },
+  {
+    "title": "Understanding Your Invoice",
+    "tags": ["billing", "invoice"],
+    "content": "Invoices include a breakdown of items, quantities, and taxes. Download them from the Billing > Invoices tab."
+  },
+  {
+    "title": "Assigning Roles to Team Members",
+    "tags": ["team", "roles"],
+    "content": "Roles can be changed from the Team page. Click on a team member and select a new role from the dropdown."
+  },
+  {
+    "title": "Enabling Two-Factor Authentication",
+    "tags": ["security", "2FA"],
+    "content": "To enable 2FA, go to Security Settings and follow the steps to pair your authenticator app."
+  },
+   {
+    "title": "Resetting your password",
+    "tags": ["account", "password"],
+    "content": "Click 'Forgot Password' on the login page and follow the email instructions."
+  },
+  {
+    "title": "Updating your email address",
+    "tags": ["account", "email"],
+    "content": "Go to account settings and type your new email, then save."
+  },
+  {
+    "title": "Canceling an order",
+    "tags": ["orders", "cancel"],
+    "content": "You can cancel an order within 30 minutes from the Orders page."
+  },
+  {
+    "title": "Adding a payment method",
+    "tags": ["billing", "payment"],
+    "content": "Go to Billing > Payment Methods and add your card or bank info."
+  },
+  {
+    "title": "Inviting teammates",
+    "tags": ["team", "invite"],
+    "content": "Admins can invite users from the Team page using their email address."
+  }
+]
